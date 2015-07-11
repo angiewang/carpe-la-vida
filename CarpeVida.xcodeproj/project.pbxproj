@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF191B4B1B5188F600D84667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B4A1B5188F600D84667 /* AppDelegate.swift */; };
+		BF191B4D1B5188F600D84667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B4C1B5188F600D84667 /* ViewController.swift */; };
+		BF191B501B5188F600D84667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF191B4E1B5188F600D84667 /* Main.storyboard */; };
+		BF191B521B5188F600D84667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF191B511B5188F600D84667 /* Images.xcassets */; };
+		BF191B551B5188F600D84667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF191B531B5188F600D84667 /* LaunchScreen.xib */; };
+		BF191B611B5188F600D84667 /* CarpeVidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B601B5188F600D84667 /* CarpeVidaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF191B5B1B5188F600D84667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF191B3D1B5188F600D84667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF191B441B5188F600D84667;
+			remoteInfo = CarpeVida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF191B451B5188F600D84667 /* CarpeVida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpeVida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF191B491B5188F600D84667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF191B4A1B5188F600D84667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF191B4C1B5188F600D84667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF191B4F1B5188F600D84667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF191B511B5188F600D84667 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF191B541B5188F600D84667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF191B5A1B5188F600D84667 /* CarpeVidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpeVidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF191B5F1B5188F600D84667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF191B601B5188F600D84667 /* CarpeVidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpeVidaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF191B421B5188F600D84667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF191B571B5188F600D84667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF191B3C1B5188F600D84667 = {
+			isa = PBXGroup;
+			children = (
+				BF191B471B5188F600D84667 /* CarpeVida */,
+				BF191B5D1B5188F600D84667 /* CarpeVidaTests */,
+				BF191B461B5188F600D84667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF191B461B5188F600D84667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF191B451B5188F600D84667 /* CarpeVida.app */,
+				BF191B5A1B5188F600D84667 /* CarpeVidaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF191B471B5188F600D84667 /* CarpeVida */ = {
+			isa = PBXGroup;
+			children = (
+				BF191B4A1B5188F600D84667 /* AppDelegate.swift */,
+				BF191B4C1B5188F600D84667 /* ViewController.swift */,
+				BF191B4E1B5188F600D84667 /* Main.storyboard */,
+				BF191B511B5188F600D84667 /* Images.xcassets */,
+				BF191B531B5188F600D84667 /* LaunchScreen.xib */,
+				BF191B481B5188F600D84667 /* Supporting Files */,
+			);
+			path = CarpeVida;
+			sourceTree = "<group>";
+		};
+		BF191B481B5188F600D84667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF191B491B5188F600D84667 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF191B5D1B5188F600D84667 /* CarpeVidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF191B601B5188F600D84667 /* CarpeVidaTests.swift */,
+				BF191B5E1B5188F600D84667 /* Supporting Files */,
+			);
+			path = CarpeVidaTests;
+			sourceTree = "<group>";
+		};
+		BF191B5E1B5188F600D84667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF191B5F1B5188F600D84667 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF191B441B5188F600D84667 /* CarpeVida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF191B641B5188F600D84667 /* Build configuration list for PBXNativeTarget "CarpeVida" */;
+			buildPhases = (
+				BF191B411B5188F600D84667 /* Sources */,
+				BF191B421B5188F600D84667 /* Frameworks */,
+				BF191B431B5188F600D84667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarpeVida;
+			productName = CarpeVida;
+			productReference = BF191B451B5188F600D84667 /* CarpeVida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF191B591B5188F600D84667 /* CarpeVidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF191B671B5188F600D84667 /* Build configuration list for PBXNativeTarget "CarpeVidaTests" */;
+			buildPhases = (
+				BF191B561B5188F600D84667 /* Sources */,
+				BF191B571B5188F600D84667 /* Frameworks */,
+				BF191B581B5188F600D84667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF191B5C1B5188F600D84667 /* PBXTargetDependency */,
+			);
+			name = CarpeVidaTests;
+			productName = CarpeVidaTests;
+			productReference = BF191B5A1B5188F600D84667 /* CarpeVidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF191B3D1B5188F600D84667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Angie Wang";
+				TargetAttributes = {
+					BF191B441B5188F600D84667 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BF191B591B5188F600D84667 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BF191B441B5188F600D84667;
+					};
+				};
+			};
+			buildConfigurationList = BF191B401B5188F600D84667 /* Build configuration list for PBXProject "CarpeVida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF191B3C1B5188F600D84667;
+			productRefGroup = BF191B461B5188F600D84667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF191B441B5188F600D84667 /* CarpeVida */,
+				BF191B591B5188F600D84667 /* CarpeVidaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF191B431B5188F600D84667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF191B501B5188F600D84667 /* Main.storyboard in Resources */,
+				BF191B551B5188F600D84667 /* LaunchScreen.xib in Resources */,
+				BF191B521B5188F600D84667 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF191B581B5188F600D84667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF191B411B5188F600D84667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF191B4D1B5188F600D84667 /* ViewController.swift in Sources */,
+				BF191B4B1B5188F600D84667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF191B561B5188F600D84667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF191B611B5188F600D84667 /* CarpeVidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF191B5C1B5188F600D84667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF191B441B5188F600D84667 /* CarpeVida */;
+			targetProxy = BF191B5B1B5188F600D84667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF191B4E1B5188F600D84667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF191B4F1B5188F600D84667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF191B531B5188F600D84667 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF191B541B5188F600D84667 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF191B621B5188F600D84667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF191B631B5188F600D84667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF191B651B5188F600D84667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarpeVida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF191B661B5188F600D84667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarpeVida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF191B681B5188F600D84667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarpeVidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarpeVida.app/CarpeVida";
+			};
+			name = Debug;
+		};
+		BF191B691B5188F600D84667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarpeVidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarpeVida.app/CarpeVida";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF191B401B5188F600D84667 /* Build configuration list for PBXProject "CarpeVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF191B621B5188F600D84667 /* Debug */,
+				BF191B631B5188F600D84667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF191B641B5188F600D84667 /* Build configuration list for PBXNativeTarget "CarpeVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF191B651B5188F600D84667 /* Debug */,
+				BF191B661B5188F600D84667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF191B671B5188F600D84667 /* Build configuration list for PBXNativeTarget "CarpeVidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF191B681B5188F600D84667 /* Debug */,
+				BF191B691B5188F600D84667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF191B3D1B5188F600D84667 /* Project object */;
+}
