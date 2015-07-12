@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965CD6031B52D77100BAD80A /* Picture.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965CD6021B52D77100BAD80A /* Picture.xcassets */; };
+		965CD6051B52DEBB00BAD80A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CD6041B52DEBB00BAD80A /* MapViewController.swift */; };
+		96F032651B5228CF00D73B85 /* DistractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F032641B5228CF00D73B85 /* DistractViewController.swift */; };
 		BF191B4B1B5188F600D84667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B4A1B5188F600D84667 /* AppDelegate.swift */; };
 		BF191B4D1B5188F600D84667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B4C1B5188F600D84667 /* ViewController.swift */; };
 		BF191B501B5188F600D84667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF191B4E1B5188F600D84667 /* Main.storyboard */; };
-		BF191B521B5188F600D84667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF191B511B5188F600D84667 /* Images.xcassets */; };
 		BF191B551B5188F600D84667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF191B531B5188F600D84667 /* LaunchScreen.xib */; };
 		BF191B611B5188F600D84667 /* CarpeVidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF191B601B5188F600D84667 /* CarpeVidaTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		965CD6021B52D77100BAD80A /* Picture.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Picture.xcassets; path = ../Picture.xcassets; sourceTree = "<group>"; };
+		965CD6041B52DEBB00BAD80A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		96F032641B5228CF00D73B85 /* DistractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistractViewController.swift; sourceTree = "<group>"; };
 		BF191B451B5188F600D84667 /* CarpeVida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpeVida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF191B491B5188F600D84667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF191B4A1B5188F600D84667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF191B4C1B5188F600D84667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF191B4F1B5188F600D84667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF191B511B5188F600D84667 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF191B541B5188F600D84667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF191B5A1B5188F600D84667 /* CarpeVidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpeVidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF191B5F1B5188F600D84667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,12 +81,14 @@
 		BF191B471B5188F600D84667 /* CarpeVida */ = {
 			isa = PBXGroup;
 			children = (
+				965CD6021B52D77100BAD80A /* Picture.xcassets */,
 				BF191B4A1B5188F600D84667 /* AppDelegate.swift */,
 				BF191B4C1B5188F600D84667 /* ViewController.swift */,
 				BF191B4E1B5188F600D84667 /* Main.storyboard */,
-				BF191B511B5188F600D84667 /* Images.xcassets */,
 				BF191B531B5188F600D84667 /* LaunchScreen.xib */,
 				BF191B481B5188F600D84667 /* Supporting Files */,
+				96F032641B5228CF00D73B85 /* DistractViewController.swift */,
+				965CD6041B52DEBB00BAD80A /* MapViewController.swift */,
 			);
 			path = CarpeVida;
 			sourceTree = "<group>";
@@ -193,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF191B501B5188F600D84667 /* Main.storyboard in Resources */,
+				965CD6031B52D77100BAD80A /* Picture.xcassets in Resources */,
 				BF191B551B5188F600D84667 /* LaunchScreen.xib in Resources */,
-				BF191B521B5188F600D84667 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF191B4D1B5188F600D84667 /* ViewController.swift in Sources */,
+				96F032651B5228CF00D73B85 /* DistractViewController.swift in Sources */,
 				BF191B4B1B5188F600D84667 /* AppDelegate.swift in Sources */,
+				965CD6051B52DEBB00BAD80A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				BF191B661B5188F600D84667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF191B671B5188F600D84667 /* Build configuration list for PBXNativeTarget "CarpeVidaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				BF191B691B5188F600D84667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
